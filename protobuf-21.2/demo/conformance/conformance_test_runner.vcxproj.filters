@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="binary_json_conformance_suite.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="conformance.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="conformance_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="conformance_test_runner.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test_messages_proto2.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test_messages_proto3.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="binary_json_conformance_suite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{625E6B9A-0BB2-3997-BD0D-83C8A0523B69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1CF25F49-D2CC-397F-9F49-5E8246E49A75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

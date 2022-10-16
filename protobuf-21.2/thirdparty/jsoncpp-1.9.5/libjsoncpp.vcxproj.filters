@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\json_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\json_value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\json_writer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4ECCD63A-E495-3A31-8626-CB6CAEE6A0C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{34356764-898B-3834-BC5C-0D2434C65326}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\json\allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\assertions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\forwards.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\json_features.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\json_tool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\value.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\writer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\json\json_valueiterator.inl">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
