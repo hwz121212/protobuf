@@ -49,7 +49,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;$(SolutionDir)include;$(SolutionDir)thirdparty\protobuf-21.2\src;$(SolutionDir)thirdparty\unistd</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;$(SolutionDir)include;$(SolutionDir)thirdparty\protobuf-21.2;$(SolutionDir)thirdparty\unistd</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8 /bigobj</AdditionalOptions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -76,12 +76,12 @@
     <PreBuildEvent>
       <Command>$(SolutionDir)tool\protobuf-21.2\protoc_exe.exe conformance.proto --proto_path=. --cpp_out=.
 $(SolutionDir)tool\protobuf-21.2\protoc_exe.exe test_messages_proto2.proto --proto_path=. --cpp_out=.
-$(SolutionDir)tool\protobuf-21.2\protoc_exe.exe test_messages_proto3.proto --proto_path=$(SolutionDir)thirdparty\protobuf-21.2\src --proto_path=. --cpp_out=.</Command>
+$(SolutionDir)tool\protobuf-21.2\protoc_exe.exe test_messages_proto3.proto --proto_path=$(SolutionDir)thirdparty\protobuf-21.2 --proto_path=. --cpp_out=.</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;$(SolutionDir)include;$(SolutionDir)thirdparty\protobuf-21.2\src;$(SolutionDir)thirdparty\unistd</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;$(SolutionDir)include;$(SolutionDir)thirdparty\protobuf-21.2;$(SolutionDir)thirdparty\unistd</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8 /bigobj</AdditionalOptions>
       <DisableSpecificWarnings>4065;4244;4251;4267;4305;4307;4309;4334;4355;4506;4800;4996</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -108,7 +108,7 @@ $(SolutionDir)tool\protobuf-21.2\protoc_exe.exe test_messages_proto3.proto --pro
     <PreBuildEvent>
       <Command>$(SolutionDir)tool\protobuf-21.2\protoc_exe.exe conformance.proto --proto_path=. --cpp_out=.
 $(SolutionDir)tool\protobuf-21.2\protoc_exe.exe test_messages_proto2.proto --proto_path=. --cpp_out=.
-$(SolutionDir)tool\protobuf-21.2\protoc_exe.exe test_messages_proto3.proto --proto_path=$(SolutionDir)thirdparty\protobuf-21.2\src --proto_path=. --cpp_out=.</Command>
+$(SolutionDir)tool\protobuf-21.2\protoc_exe.exe test_messages_proto3.proto --proto_path=$(SolutionDir)thirdparty\protobuf-21.2 --proto_path=. --cpp_out=.</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
