@@ -22,14 +22,23 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "conformance", "conformance", "{63124733-B54B-4DB6-8FDF-1233AEEDAA76}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "conformance_cpp", "demo\conformance\conformance_cpp.vcxproj", "{7FB57F90-D593-30CC-B62A-541966B2EB2C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBEB9641-8DEB-3876-8DF5-EDCB9B58AE76} = {BBEB9641-8DEB-3876-8DF5-EDCB9B58AE76}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjsoncpp", "thirdparty\jsoncpp-1.9.5\libjsoncpp.vcxproj", "{1FC6299F-176B-32F3-95BC-A5171A2312AA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{85D9C5FD-5D5F-43C4-A639-F92FEE72EFDA}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "add_person", "demo\examples\add_person.vcxproj", "{ADFB21DC-E020-4690-BEC1-44EEDACAF13E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBEB9641-8DEB-3876-8DF5-EDCB9B58AE76} = {BBEB9641-8DEB-3876-8DF5-EDCB9B58AE76}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "list_people", "demo\examples\list_people.vcxproj", "{7A217D9E-A446-4CE6-A8F7-B07F113A0895}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBEB9641-8DEB-3876-8DF5-EDCB9B58AE76} = {BBEB9641-8DEB-3876-8DF5-EDCB9B58AE76}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_lib", "0_lib", "{CC9C2285-2A79-416C-81D5-40F84CFC63E5}"
 EndProject
