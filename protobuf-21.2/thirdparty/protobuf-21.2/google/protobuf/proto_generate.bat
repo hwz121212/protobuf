@@ -1,0 +1,1 @@
+..\..\..\..\tool\protobuf-21.2\protoc_exe.exe wrappers.proto --proto_path=. --cpp_out=.
