@@ -49,10 +49,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libprotobuf", "thirdparty\p
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libprotoc", "thirdparty\protobuf-21.2\libprotoc.vcxproj", "{F7FB0BF0-1F6C-4ACD-934C-48F56370B11B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libprotobuf-lite", "thirdparty\protobuf-21.2\libprotobuf-lite.vcxproj", "{A16C54D3-54F8-4B47-9BDE-5A0FADAD30C6}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "protobuf-lite", "thirdparty\protobuf-21.2\protobuf-lite.vcxproj", "{FED7A0BA-CA77-3706-8681-0743C87AA9E0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,14 +87,6 @@ Global
 		{F7FB0BF0-1F6C-4ACD-934C-48F56370B11B}.Debug|x64.Build.0 = Debug|x64
 		{F7FB0BF0-1F6C-4ACD-934C-48F56370B11B}.Release|x64.ActiveCfg = Release|x64
 		{F7FB0BF0-1F6C-4ACD-934C-48F56370B11B}.Release|x64.Build.0 = Release|x64
-		{A16C54D3-54F8-4B47-9BDE-5A0FADAD30C6}.Debug|x64.ActiveCfg = Debug|x64
-		{A16C54D3-54F8-4B47-9BDE-5A0FADAD30C6}.Debug|x64.Build.0 = Debug|x64
-		{A16C54D3-54F8-4B47-9BDE-5A0FADAD30C6}.Release|x64.ActiveCfg = Release|x64
-		{A16C54D3-54F8-4B47-9BDE-5A0FADAD30C6}.Release|x64.Build.0 = Release|x64
-		{FED7A0BA-CA77-3706-8681-0743C87AA9E0}.Debug|x64.ActiveCfg = Debug|x64
-		{FED7A0BA-CA77-3706-8681-0743C87AA9E0}.Debug|x64.Build.0 = Debug|x64
-		{FED7A0BA-CA77-3706-8681-0743C87AA9E0}.Release|x64.ActiveCfg = Release|x64
-		{FED7A0BA-CA77-3706-8681-0743C87AA9E0}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,8 +105,6 @@ Global
 		{43B737EE-3C1A-4465-857A-5689807A0BC4} = {BA761103-DD2E-47AC-8C39-C217EA152898}
 		{B62AB514-6EB5-48CE-ACD8-A221570EB16E} = {CC9C2285-2A79-416C-81D5-40F84CFC63E5}
 		{F7FB0BF0-1F6C-4ACD-934C-48F56370B11B} = {CC9C2285-2A79-416C-81D5-40F84CFC63E5}
-		{A16C54D3-54F8-4B47-9BDE-5A0FADAD30C6} = {CC9C2285-2A79-416C-81D5-40F84CFC63E5}
-		{FED7A0BA-CA77-3706-8681-0743C87AA9E0} = {FCF7E529-1A6B-4C45-8660-2E7A07031280}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7AF73E56-F7C1-3D9E-9E43-2AFC4E3D9527}
