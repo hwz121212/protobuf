@@ -1,0 +1,641 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="google">
+      <UniqueIdentifier>{dc89b4a1-2838-4c1b-86c9-9a32a8d1ed4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="google\protobuf">
+      <UniqueIdentifier>{bc775235-9d34-4256-8002-b6fd110977fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="google\protobuf\io">
+      <UniqueIdentifier>{74ea1c08-894e-4aed-9766-e393fe4277f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="google\protobuf\util">
+      <UniqueIdentifier>{1e28a1ae-cc60-43e3-934e-4ff187c40767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="google\protobuf\util\internal">
+      <UniqueIdentifier>{28de87d8-1d89-4440-b973-a262d0ab39a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="google\protobuf\stubs">
+      <UniqueIdentifier>{d435400f-aa45-4dd3-a217-9b11f5f02d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="google\protobuf\compiler">
+      <UniqueIdentifier>{57b96f9b-021d-43d4-b0c1-cda58f3eb520}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="google\protobuf\util\delimited_message_util.h">
+      <Filter>google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\field_comparator.h">
+      <Filter>google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\field_mask_util.h">
+      <Filter>google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\json_util.h">
+      <Filter>google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\message_differencer.h">
+      <Filter>google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\io\printer.h">
+      <Filter>google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\time_util.h">
+      <Filter>google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\io\tokenizer.h">
+      <Filter>google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\type_resolver.h">
+      <Filter>google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\type_resolver_util.h">
+      <Filter>google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\io\gzip_stream.h">
+      <Filter>google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\compiler\importer.h">
+      <Filter>google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\compiler\parser.h">
+      <Filter>google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\any.pb.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\api.pb.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\descriptor.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\descriptor.pb.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\descriptor_database.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\duration.pb.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\dynamic_message.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\empty.pb.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\field_access_listener.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\field_mask.pb.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\generated_enum_reflection.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\generated_message_bases.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\generated_message_reflection.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\map_entry.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\map_field.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\map_field_inl.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\message.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\metadata.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\reflection.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\reflection_internal.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\reflection_ops.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\service.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\source_context.pb.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\struct.pb.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\text_format.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\timestamp.pb.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\type.pb.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\unknown_field_set.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\wire_format.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\wrappers.pb.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\bytestream.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\casts.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\common.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\int128.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\logging.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\status.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\statusor.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\stringpiece.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\stringprintf.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\strutil.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\substitute.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\time.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\io\coded_stream.h">
+      <Filter>google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\io\strtod.h">
+      <Filter>google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\io\zero_copy_stream.h">
+      <Filter>google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\io\zero_copy_stream_impl_lite.h">
+      <Filter>google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\internal\datapiece.h">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\internal\default_value_objectwriter.h">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\internal\error_listener.h">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\internal\field_mask_utility.h">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\internal\json_escaping.h">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\internal\json_objectwriter.h">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\internal\json_stream_parser.h">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\internal\object_writer.h">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\internal\proto_writer.h">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\internal\protostream_objectsource.h">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\internal\protostream_objectwriter.h">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\internal\type_info.h">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\internal\utility.h">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\any.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\arena.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\arenastring.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\arenaz_sampler.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\extension_set.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\generated_enum_util.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\generated_message_util.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\implicit_weak_message.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\inlined_string_field.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\map.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\message_lite.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\parse_context.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\repeated_field.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\wire_format_lite.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\macros.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\callback.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\hash.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\io\zero_copy_stream_impl.h">
+      <Filter>google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\arena_impl.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\platform_macros.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\port.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\port.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\mutex.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\once.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\stl_util.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\io\io_win32.h">
+      <Filter>google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\internal\location_tracker.h">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\explicitly_constructed.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\internal\structured_objectwriter.h">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\metadata_lite.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\has_bits.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\repeated_ptr_field.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\endian.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\map_type_handler.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\map_util.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\map_entry_lite.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\extension_set_inl.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\status_macros.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\internal\constants.h">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\internal\object_source.h">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\generated_message_tctable_decl.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\generated_message_tctable_impl.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\map_field_lite.h">
+      <Filter>google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\util\internal\object_location_tracker.h">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="google\protobuf\stubs\mathutil.h">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="google\protobuf\io\coded_stream.cc">
+      <Filter>google\protobuf\io</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\io\io_win32.cc">
+      <Filter>google\protobuf\io</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\io\strtod.cc">
+      <Filter>google\protobuf\io</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\io\zero_copy_stream.cc">
+      <Filter>google\protobuf\io</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\io\zero_copy_stream_impl.cc">
+      <Filter>google\protobuf\io</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\io\zero_copy_stream_impl_lite.cc">
+      <Filter>google\protobuf\io</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\stubs\common.cc">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\stubs\int128.cc">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\stubs\status.cc">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\stubs\statusor.cc">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\stubs\stringpiece.cc">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\stubs\stringprintf.cc">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\stubs\structurally_valid.cc">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\stubs\strutil.cc">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\stubs\time.cc">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\io\printer.cc">
+      <Filter>google\protobuf\io</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\io\tokenizer.cc">
+      <Filter>google\protobuf\io</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\stubs\substitute.cc">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\util\delimited_message_util.cc">
+      <Filter>google\protobuf\util</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\util\field_comparator.cc">
+      <Filter>google\protobuf\util</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\util\field_mask_util.cc">
+      <Filter>google\protobuf\util</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\util\internal\default_value_objectwriter.cc">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\util\internal\error_listener.cc">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\util\internal\field_mask_utility.cc">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\util\internal\json_escaping.cc">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\util\internal\json_objectwriter.cc">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\util\internal\json_stream_parser.cc">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\util\internal\object_writer.cc">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\util\internal\proto_writer.cc">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\util\internal\protostream_objectsource.cc">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\util\internal\protostream_objectwriter.cc">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\util\internal\type_info.cc">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\util\internal\utility.cc">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\util\json_util.cc">
+      <Filter>google\protobuf\util</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\util\message_differencer.cc">
+      <Filter>google\protobuf\util</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\util\time_util.cc">
+      <Filter>google\protobuf\util</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\util\type_resolver_util.cc">
+      <Filter>google\protobuf\util</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\io\gzip_stream.cc">
+      <Filter>google\protobuf\io</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\util\internal\datapiece.cc">
+      <Filter>google\protobuf\util\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\stubs\bytestream.cc">
+      <Filter>google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\compiler\importer.cc">
+      <Filter>google\protobuf\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\compiler\parser.cc">
+      <Filter>google\protobuf\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\any.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\any.pb.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\any_lite.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\api.pb.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\arena.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\arenastring.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\arenaz_sampler.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\descriptor.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\descriptor.pb.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\descriptor_database.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\duration.pb.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\dynamic_message.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\empty.pb.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\extension_set.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\extension_set_heavy.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\field_mask.pb.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\generated_enum_util.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\generated_message_bases.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\generated_message_reflection.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\generated_message_tctable_full.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\generated_message_tctable_lite.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\generated_message_util.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\implicit_weak_message.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\inlined_string_field.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\map.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\map_field.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\message.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\message_lite.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\parse_context.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\reflection_ops.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\repeated_field.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\repeated_ptr_field.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\service.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\source_context.pb.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\struct.pb.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\text_format.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\timestamp.pb.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\type.pb.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\unknown_field_set.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\wire_format.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\wire_format_lite.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="google\protobuf\wrappers.pb.cc">
+      <Filter>google\protobuf</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="google\protobuf\port_def.inc">
+      <Filter>google\protobuf</Filter>
+    </None>
+    <None Include="google\protobuf\port_undef.inc">
+      <Filter>google\protobuf</Filter>
+    </None>
+  </ItemGroup>
+</Project>
